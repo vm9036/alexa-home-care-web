@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+
+.navbar-brand span {
+    color: #8cc63f;
+    font-weight: bold;
+}
+
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('') no-repeat center center;
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    height: 830px;
+    width: 100%;
+
+    @media screen and (max-width: 767px) {
+        .hero {
+            height: 90vh;
+        }
+    }
+}
+
+.get-started-btn {
+    background-color: #d6eb4f;
+    color: #1b381b;
+    font-weight: 600;
+    border-radius: 30px;
+}
+
+.section-title {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.card-service {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.card-service:hover {
+    transform: translateY(-8px);
+}
+
+.card_img{
+    background-image: url('./assets/images/card.png');
+}
+
+.card-service img {
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    height: 300px;
+    object-fit: cover;
+}
+
+footer {
+    background-color: #2d4c27;
+    color: white;
+    padding: 30px 0;
+}
