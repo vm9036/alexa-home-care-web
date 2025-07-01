@@ -20,7 +20,7 @@ body {
 }
 
 .hero {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('') no-repeat center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../images/hero-bg.jpg') no-repeat center center;
     background-size: cover;
     color: white;
     text-align: center;
@@ -28,12 +28,6 @@ body {
     align-items: center;
     height: 830px;
     width: 100%;
-
-    @media screen and (max-width: 767px) {
-        .hero {
-            height: 90vh;
-        }
-    }
 }
 
 .get-started-btn {
@@ -59,9 +53,14 @@ body {
     transform: translateY(-8px);
 }
 
-.card_img{
-    background-image: url('./assets/images/card.png');
-}
+/* .card_img {
+    background-image: url('../images/card.png');
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+} */
 
 .card-service img {
     border-top-left-radius: 15px;
@@ -70,8 +69,21 @@ body {
     object-fit: cover;
 }
 
+.blockquote p{
+    margin-top: 50px;
+
+}
+
 footer {
-    background-color: #2d4c27;
+    background-color: #2d4c27;    
     color: white;
     padding: 30px 0;
+}
+
+
+/* media qyary for mobile */
+@media screen and (max-width: 767px) {
+    .hero {
+        height: 90vh;
+    }
 }
