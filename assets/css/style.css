@@ -13,7 +13,6 @@ body {
     margin: 0 auto;
 }
 
-
 .navbar-brand span {
     color: #8cc63f;
     font-weight: bold;
@@ -68,6 +67,15 @@ body {
     height: 300px;
     object-fit: cover;
 }
+
+
+/* personal care section starts */
+
+.personal_icon{
+    font-size: 3rem;
+}
+
+/* personal care section ends */
 
 .blockquote p{
     margin-top: 50px;
