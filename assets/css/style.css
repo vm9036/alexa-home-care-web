@@ -71,19 +71,27 @@ body {
 
 /* personal care section starts */
 
-.personal_icon{
+.personal_icon {
     font-size: 3rem;
+}
+
+svg {
+    fill: green;
+}
+
+svg:hover {
+    fill: rgb(97, 97, 206);
 }
 
 /* personal care section ends */
 
-.blockquote p{
+.blockquote p {
     margin-top: 50px;
 
 }
 
 footer {
-    background-color: #2d4c27;    
+    background-color: #2d4c27;
     color: white;
     padding: 30px 0;
 }
