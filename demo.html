@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Creative Bootstrap Carousel</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap CSS CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    .carousel-item {
+      height: 100vh;
+      min-height: 400px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+    }
+
+    .carousel-caption {
+      bottom: 30%;
+      z-index: 10;
+    }
+
+    .carousel-caption h5 {
+      font-size: 3rem;
+      font-weight: bold;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+    }
+
+    .carousel-caption p {
+      font-size: 1.2rem;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    }
+
+    .carousel-caption .btn {
+      background-color: #28a745;
+      border: none;
+      padding: 10px 25px;
+      font-size: 1rem;
+    }
+
+    .carousel-indicators [data-bs-target] {
+      background-color: #28a745;
+    }
+  </style>
+</head>
+<body>
+
+<div id="creativeCarousel" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#creativeCarousel" data-bs-slide-to="0" class="active" aria-current="true"></button>
+    <button type="button" data-bs-target="#creativeCarousel" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#creativeCarousel" data-bs-slide-to="2"></button>
+  </div>
+
+  <div class="carousel-inner">
+    <div class="carousel-item active" style="background-image: url('assets/images/card1.png')">
+      <div class="carousel-caption text-start text-white">
+        <h5>Care with Compassion</h5>
+        <p>We provide home care services with empathy and love.</p>
+        <a href="#services" class="btn btn-success">Explore Services</a>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('assets/images/card2.png')">
+      <div class="carousel-caption text-end text-white">
+        <h5>24/7 Support</h5>
+        <p>Always by your side, day or night.</p>
+        <a href="#contact" class="btn btn-success">Contact Us</a>
+      </div>
+    </div>
+    <div class="carousel-item" style="background-image: url('assets/images/card3.png')">
+      <div class="carousel-caption text-center text-white">
+        <h5>Trust & Reliability</h5>
+        <p>Home care you can rely on with complete transparency.</p>
+        <a href="#about" class="btn btn-success">Learn More</a>
+      </div>
+    </div>
+  </div>
+
+  <button class="carousel-control-prev" type="button" data-bs-target="#creativeCarousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#creativeCarousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
