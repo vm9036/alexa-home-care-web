@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Alexa Home Care</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+<style>
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f0f4f8;
+    }
+
+    .contact-info ul li {
+        margin-bottom: 10px;
+        font-size: 1rem;
+    }
+
+    form .form-control {
+        border-radius: 0.5rem;
+        font-size: 1rem;
+    }
+
+    form .btn {
+        font-size: 1.1rem;
+        font-weight: 600;
+        border-radius: 0.5rem;
+    }
+
+    .map-section iframe {
+        border-radius: 0.75rem;
+    }
+</style>
+
+<body>
+
+    <!-- navbar starts-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark py-3">
+        <div class="container">
+            <a class="navbar-brand" href="index.html"><span>alexa</span>homecare</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                </ul>
+                <!-- <a href="#contact" class="btn get-started-btn ms-3">Get Started</a> -->
+            </div>
+        </div>
+    </nav>
+    <!-- navbar ends-->
+
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1 class="display-4 fw-bold animate__animated animate__fadeInDown">Let's Connect</h1>
+            <p class="lead animate__animated animate__fadeInUp">At Alexa Home Care, we provide personalized,
+                compassionate support 24/7 — because your care is our calling.</p>
+        </div>
+    </header>
+
+    <section class="container contact-section my-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 animate__animated animate__fadeInLeft">
+                <div class="contact-info p-4 shadow rounded bg-white">
+                    <h2 class="mb-4 text-primary">Contact Information</h2>
+                    <p>We’re always here to help you. Feel free to contact us using the form or the details below.</p>
+                    <ul class="list-unstyled mt-4">
+                        <li><strong>📞 Phone:</strong> +1 (312) 555-7890</li>
+                        <li><strong>📧 Email:</strong> info@alexahomecare.com</li>
+                        <li><strong>📍 Address:</strong> 742 Evergreen Terrace, Chicago, IL 60601, USA</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-6 animate__animated animate__fadeInRight">
+                <div class="p-4 shadow rounded bg-light">
+                    <h2 class="mb-4 text-primary">Send a Message</h2>
+                    <form>
+                        <div class="mb-3">
+                            <input type="text" class="form-control" placeholder="Your Full Name">
+                        </div>
+                        <div class="mb-3">
+                            <input type="email" class="form-control" placeholder="Email Address">
+                        </div>
+                        <div class="mb-3">
+                            <textarea class="form-control" rows="5" placeholder="Write your message here..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary w-100 py-2">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="map-section py-5">
+        <div class="container">
+            <h3 class="text-center mb-4">Find Us On Google Map</h3>
+            <div class="ratio ratio-16x9 shadow rounded animate__animated animate__fadeInUp">
+                <!-- <iframe src="https://maps.app.goo.gl/Ch9XM9Cpj1oKTo8u6" width="100%" height="450" style="border:0;"
+                    allowfullscreen="" loading="lazy"></iframe> -->
+                <!-- <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d42378847.6913815!2d-119.8093025!3d44.24236485000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54eab584e432360b%3A0x1c3bb99243deb742!2sUnited%20States!5e1!3m2!1sen!2sus!4v1752077383326!5m2!1sen!2sus"
+                    width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5892990.542386852!2d-124.59629263386519!3d37.160518048915854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808fb9fe5f285e3d%3A0x8b5109a227086f55!2sCalifornia!5e1!3m2!1sen!2sus!4v1752077820913!5m2!1sen!2sus"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer starts -->
+    <footer class="text-center">
+        <div class="container">
+            <p class="mb-0">&copy; 2025 Alexa Homecare. All rights reserved.</p>
+        </div>
+    </footer>
+    <!-- footer ends -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
