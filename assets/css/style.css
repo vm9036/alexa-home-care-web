@@ -85,6 +85,60 @@ svg:hover {
 
 /* personal care section ends */
 
+/* testimonial section starts */
+
+.testimonial-card {
+    background: #fff;
+    border-radius: 1rem;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.05);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease;
+}
+
+.testimonial-card:hover {
+    transform: translateY(-5px);
+}
+
+.testimonial-author {
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.testimonial-quote {
+    font-style: italic;
+    color: #555;
+}
+
+/* testimonial section ends */
+
+/* why choose us section starts */
+
+.why-choose-section {
+    background: linear-gradient(to right, #0d6efd, #00b4d8);
+    color: white;
+    padding: 60px 0;
+    border-radius: 1rem;
+}
+
+.why-choose-section h2 {
+    font-weight: bold;
+}
+
+.why-choose-section ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.why-choose-section ul li::before {
+    content: "✓";
+    color: #fff;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* why choose us section ends */
+
 .blockquote p {
     margin-top: 50px;
 
